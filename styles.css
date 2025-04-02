@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url("assets/Lebron.webp");
+    background-size: 100%;
+    background-repeat: repeat-y;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header, main, footer {
+    text-align: center;
+    background-color: #161b33;
+    color: white;
+}
+
+header, main {
+    min-width: 300px;
+    max-width: 640px;
+    margin: auto;
+    padding: 16px;
+    background-color: rgba(22, 27, 51, 0.8)
+}
+
+main {
+    margin-top: 120px;
+    font-size: 32px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.age-input {
+    text-align: center;
+    width: 150px;
+    margin: 8px 0;
+    font-size: 24px;
+}
+
+.age {
+    display: block;
+    font-size: 64px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #161b33;
+    color: white;
+    padding: 4px 0;
+    margin: 0;
+}
+
+footer a {
+    color: white;
+}
